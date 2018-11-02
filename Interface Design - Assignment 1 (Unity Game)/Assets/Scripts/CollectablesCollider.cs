@@ -26,6 +26,26 @@ public class CollectablesCollider : MonoBehaviour {
 		{
 			Debug.Log ("You've collected a tasty chicken leg!");
 		}
+		else if (gameObject.name.Contains("PlaceCave"))
+		{
+			Debug.Log ("You've discovered the mushroom cave!");
+		}
+		else if (gameObject.name.Contains("PlacePark"))
+		{
+			Debug.Log ("You've discovered the park!");
+		}
+		else if (gameObject.name.Contains("PlaceGrandTree"))
+		{
+			Debug.Log ("You've discovered the grand tree!");
+		}
+		else if (gameObject.name.Contains("PlaceVillage"))
+		{
+			Debug.Log ("You've discovered the village!");
+		}
+		else if (gameObject.name.Contains("PlaceCamp"))
+		{
+			Debug.Log ("You've discovered the camp!");
+		}
 		//AudioSource audio = GetComponent<AudioSource>();
 		//audio.Play();
 

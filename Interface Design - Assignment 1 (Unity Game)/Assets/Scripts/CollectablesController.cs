@@ -49,10 +49,11 @@ public class CollectablesController : MonoBehaviour {
 
 	void OutputCounts()
 	{
-		Debug.Log ("You've Collected");
+		Debug.Log ("Statistics");
 		Debug.Log ("Aid Box: " + cd [0].CollectablesNumber);
 		Debug.Log ("Gems: " + cd [1].CollectablesNumber);
 		Debug.Log ("Chicken Leg: " + cd [2].CollectablesNumber);
+
 	}
 	public void SaveData()
 	{
