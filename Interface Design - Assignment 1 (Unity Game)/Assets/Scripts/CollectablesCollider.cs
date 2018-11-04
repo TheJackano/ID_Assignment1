@@ -46,8 +46,8 @@ public class CollectablesCollider : MonoBehaviour {
 		{
 			Debug.Log ("You've discovered the camp!");
 		}
-		//AudioSource audio = GetComponent<AudioSource>();
-		//audio.Play();
+		AudioSource audio = GetComponent<AudioSource>();
+		audio.Play();
 
 		cc.IncrementCount (gameObject);
 		Destroy (gameObject);
