@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33409280199443044}
   - component: {fileID: 23045248935680120}
   - component: {fileID: 65743034050764648}
-  - component: {fileID: 114588879040453822}
   m_Layer: 0
   m_Name: aid_box
   m_TagString: Untagged
@@ -96,23 +95,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0038208917, y: 0.0034846987, z: 0.0028511619}
   m_Center: {x: 0.0009219792, y: -2.9103814e-10, z: 0.0014369135}
---- !u!114 &114588879040453822
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1970989797646066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35a48f626d4a86d4ebaf37b97ac34aa8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: First Aid
-  Image: {fileID: 21300000, guid: ab97eea803c1fb642921225713e2020a, type: 3}
-  InteractText: Press F to pickup first aid
-  ItemType: 1
-  PickPosition: {x: 0, y: 0, z: 0}
-  PickRotation: {x: 0, y: 0, z: 0}
-  DropRotation: {x: 0, y: 0, z: 0}
-  UseItemAfterPickup: 0
-  HealthPoints: 25

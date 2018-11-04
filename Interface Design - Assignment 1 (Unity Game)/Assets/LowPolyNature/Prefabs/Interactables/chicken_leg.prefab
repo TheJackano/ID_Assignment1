@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33938800293484874}
   - component: {fileID: 23605525744917922}
   - component: {fileID: 65209217929541514}
-  - component: {fileID: 114848254730811086}
   m_Layer: 0
   m_Name: chicken_leg
   m_TagString: Untagged
@@ -96,23 +95,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0019429455, y: 0.0044055623, z: 0.001144517}
   m_Center: {x: -0.00026367087, y: 0.00081360404, z: 0.00032728573}
---- !u!114 &114848254730811086
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1350596714202548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38dc88eecf50e87429e80511295c2e60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Chicken leg
-  Image: {fileID: 21300000, guid: c6dc88592953a2f4f9445a4fd0decc93, type: 3}
-  InteractText: Press F to pickup the food
-  ItemType: 0
-  PickPosition: {x: 0, y: 0, z: 0}
-  PickRotation: {x: 0, y: 0, z: 0}
-  DropRotation: {x: 0, y: 0, z: 0}
-  UseItemAfterPickup: 0
-  FoodPoints: 20

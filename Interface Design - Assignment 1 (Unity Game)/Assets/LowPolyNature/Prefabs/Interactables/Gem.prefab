@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33818271595829412}
   - component: {fileID: 23965412710035950}
   - component: {fileID: 65723291376472950}
-  - component: {fileID: 114559790400671770}
   m_Layer: 0
   m_Name: Gem
   m_TagString: Untagged
@@ -96,22 +95,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0033993158, y: 0.00392519, z: 0.002663189}
   m_Center: {x: -7.566996e-10, y: -0.0000000023283064, z: 0.00021763088}
---- !u!114 &114559790400671770
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1623027194275334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e34d78b822635ab43902bdf063c5ed6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Red Gem
-  Image: {fileID: 21300000, guid: 0819b1b381cb10548aa334239d55801b, type: 3}
-  InteractText: Press F to pickup the gem
-  ItemType: 0
-  PickPosition: {x: -0.00014, y: 0.00091, z: 0.00124}
-  PickRotation: {x: -193.947, y: -28.52802, z: -133.821}
-  DropRotation: {x: 0, y: 0, z: 0}
-  UseItemAfterPickup: 0
