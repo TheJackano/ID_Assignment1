@@ -249,7 +249,6 @@ GameObject:
   - component: {fileID: 54665547618373030}
   - component: {fileID: 143857133471581462}
   - component: {fileID: 65069898044060218}
-  - component: {fileID: 114776834927309406}
   m_Layer: 0
   m_Name: lp_guy
   m_TagString: Player
@@ -1049,26 +1048,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114776834927309406
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1438851699991618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f769344a18165840a13d2288152bea6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Speed: 5
-  RotationSpeed: 280
-  Inventory: {fileID: 0}
-  Hand: {fileID: 1364607010040684}
-  Hud: {fileID: 0}
-  JumpSpeed: 7
-  Health: 100
-  Food: 100
-  HungerRate: 0.5
 --- !u!137 &137525614055765954
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
